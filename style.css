@@ -154,8 +154,6 @@ body {
   display: flex;
   margin: 20px auto;
   flex-direction: row;
-
-  /* border: 2px solid red; */
 }
 
 .hero-section {
@@ -171,9 +169,9 @@ body {
   gap: 10px;
   padding: 25px;
   margin-top: 50px;
-  /* border: 2px solid yellow; */
-  background-image: url(./images/Rectangle\ 5.png),
-    url(./images/Rectangle\ 7.png), url(./images/Rectangle\ 6.png);
+  background-image: url("/Homepage file/images/Rectangle 5.png"),
+    url("/Homepage file/images/Rectangle 7.png"),
+    url("/Homepage file/images/Rectangle 6.png");
   background-repeat: no-repeat;
   background-position: top right, center right, center right;
 }
@@ -183,7 +181,7 @@ body {
   font-weight: 800;
   color: #002a48;
   line-height: 68px;
-  background-image: url(./images/Bg-img\ under\ ON.svg);
+  background-image: url("/Homepage file/images/Bg-img under ON.svg");
   background-repeat: no-repeat;
   background-position: top left;
   background-size: calc(10%);
@@ -242,8 +240,9 @@ body {
 .hero-img {
   width: 60%;
   margin: 0, auto;
-  padding: 0 20px;
-  background-image: url(./images/head1.png), url(./images/head.png);
+  padding: 0px 20px;
+  background-image: url("/Homepage file/images/head1.png"),
+    url("/Homepage file/images/head.png");
   background-repeat: no-repeat;
   background-position: unset;
   background-position: bottom left, bottom right;
@@ -365,8 +364,8 @@ body {
 
 .body-banner {
   background-color: #003459;
-  background-image: url(./images/second\ image.png),
-    url(./images/Rectangle\ 1.png);
+  background-image: url("/Homepage file/images/second image.png"),
+    url("/Homepage file/images/Rectangle 1.png");
   background-repeat: no-repeat, no-repeat;
   background-position: right, bottom left;
   background-size: calc(57%);
@@ -1031,8 +1030,9 @@ footer {
     flex-direction: column;
     width: 100%;
     height: 120vh;
-    background-image: url(./images/good-humored-woman-holds-dog-laughing-pink-background-emotional-sort-haired-girl-grey-hoodie-poses-with-corgi-isolated\ 1.png),
-      url(./images/head1.png), url(./images/head.png);
+    background-image: url("/Homepage file/images/good-humored-woman-holds-dog-laughing-pink-background-emotional-sort-haired-girl-grey-hoodie-poses-with-corgi-isolated 1.png"),
+      url("/Homepage file/images/head1.png"),
+      url("/Homepage file/images/head.png");
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-size: 100%;
     background-position: bottom center;
@@ -1042,11 +1042,6 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 0;
-    /* background-image: url(./images/good-humored-woman-holds-dog-laughing-pink-background-emotional-sort-haired-girl-grey-hoodie-poses-with-corgi-isolated\ 1.png),
-      url(./images/head1.png), url(./images/head.png);
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    background-size: 100%;
-    background-position: bottom center; */
   }
 
   .hero-section {
@@ -1097,7 +1092,8 @@ footer {
   }
 
   .body-banner {
-    background-image: url(./images/mqbb.png), url(./images/Rectangle\ 1.png);
+    background-image: url("/Homepage file/images/mqbb.png"),
+      url("/Homepage file/images/Rectangle 1.png");
     background-repeat: no-repeat, no-repeat;
     background-position: top, bottom left;
     background-size: calc(100%);
@@ -1317,7 +1313,7 @@ footer {
 
   .container {
     width: 100%;
-    background-image: url(./images/headimg.png);
+    background-image: url("/Homepage file/images/headimg.png");
     background-repeat: no-repeat;
     padding: 10px 0;
   }
