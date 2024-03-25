@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link
+      href="https://fonts.cdnfonts.com/css/gilroy-bold?styles=20876,20877,20878,20879,20880"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="category.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <title>Category</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <div class="container">
+        <div class="logo">
+          <i class="ri-menu-line"></i>
+          <img
+            src="../Homepage file/images/LOGO.svg"
+            alt="Monito"
+            class="log"
+          />
+          <div class="search-mq"><i class="ri-search-line"></i></div>
+        </div>
+        <nav class="navigation">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a class="nav-link" href="../Homepage file/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Category file/category.html"
+                >Category</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="nav2">
+          <div class="search-bar">
+            <button id="search-button">
+              <i class="ri-search-line"></i>
+            </button>
+            <input
+              type="text"
+              id="search-input"
+              placeholder="Search something here!"
+            />
+          </div>
+          <button class="CTA">Join the community</button>
+          <div class="drop-down">
+            <img src="../Homepage file/images/VND.svg" alt="vnd" class="vnd" />
+            <p>VND</p>
+            <i class="ri-arrow-drop-down-line"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="quicklinks">
+        <ul>
+          <li>
+            <a href="#">Home<i class="ri-arrow-drop-right-line"></i></a>
+          </li>
+          <li>
+            <a href="#">Dog<i class="ri-arrow-drop-right-line"></i></a>
+          </li>
+          <li><a href="#">Small Dog</a></li>
+        </ul>
+      </div>
+
+      <section class="body-banner">
+        <div class="kiss-banner">
+          <img src="./images/group-portrait-adorable-puppies 1.png" />
+        </div>
+        <div class="body-banner-content">
+          <div class="body-banner-text">
+            <h1>One More Friend</h1>
+            <h4>Thousands More Fun!</h4>
+            <p>
+              Having a pet means you have more joy, a new friend, a happy person
+              who will always be with you to have fun. We have 200+ different
+              pets that can meet your needs!
+            </p>
+          </div>
+
+          <div class="body-banner-button">
+            <button type="button" class="intro1">
+              View Intro <i class="ri-play-circle-line"></i>
+            </button>
+            <button type="button" class="explore">Explore Now</button>
+          </div>
+        </div>
+        <img
+          class="img-mq"
+          src="./images/group-portrait-adorable-puppies 1.png"
+        />
+      </section>
+    </header>
+
+    <!-- Body -->
+    <section id="body">
+      <!-- aside -->
+      <aside>
+        <div class="aside-title">
+          <h3>Filter</h3>
+        </div>
+        <div class="aside-filter">
+          <div class="aside-filter-item">
+            <div class="aside-filter-item-title">
+              <h4>Gender</h4>
+            </div>
+            <div id="input">
+              <div class="checkbox">
+                <input type="checkbox" id="Gender" name="Gender" value="Male" />
+                <label for="Gender">Male</label>
+              </div>
+              <div class="checkbox">
+                <input type="checkbox" id="Gender" name="Gender" value="Male" />
+                <label for="Gender">Female</label>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div class="aside-filter-item">
+            <div class="aside-filter-item-title">
+              <h4>Color</h4>
+            </div>
+            <div id="input">
+              <div class="checkbox">
+                <input type="checkbox" name="" id="" /><label for="Gender"
+                  ><img src="./images/red.png" />Red</label
+                >
+              </div>
+              <div class="checkbox">
+                <input type="checkbox" name="" id="" /><label for="Gender"
+                  ><img src="./images/Apricot.png" />Apricot</label
+                >
+              </div>
+              <div class="checkbox">
+                <input type="checkbox" name="" id="" /><label for="Gender"
+                  ><img src="./images/black.png" />Black</label
+                >
+              </div>
+              <div class="checkbox">
+                <input type="checkbox" name="" id="" /><label for="Gender"
+                  ><img src="./images/black&white.png" />Black & White</label
+                >
+              </div>
+              <div class="checkbox">
+                <input type="checkbox" name="" id="" /><label for="Gender"
+                  ><img src="./images/silver.png" />Silver</label
+                >
+              </div>
+              <div class="checkbox">
+                <input type="checkbox" name="" id="" /><label for="Gender"
+                  ><img src="./images/Tan.png" />Tan</label
+                >
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div class="aside-filter-item">
+            <div class="aside-filter-item-title">
+              <h4>Price</h4>
+            </div>
+            <div class="price">
+              <input
+                type="number"
+                id="quantity"
+                name="quantity"
+                min="1"
+                max="5"
+                placeholder="Min"
+              />
+              <input
+                type="number"
+                id="quantity"
+                name="quantity"
+                min="1"
+                max="5"
+                placeholder="Max"
+              />
+            </div>
+          </div>
+          <hr />
+          <div class="aside-filter-item">
+            <div class="aside-filter-item-title">
+              <h4>Breed</h4>
+            </div>
+            <div id="input">
+              <div class="checkbox">
+                <input type="checkbox" id="Gender" name="Gender" value="Male" />
+                <label for="Gender">Small</label>
+              </div>
+              <div class="checkbox">
+                <input type="checkbox" id="Gender" name="Gender" value="Male" />
+                <label for="Gender">Medium</label>
+              </div>
+              <div class="checkbox">
+                <input type="checkbox" id="Gender" name="Gender" value="Male" />
+                <label for="Gender">Large</label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <!-- Main-body -->
+
+      <section class="body">
+        <div class="title">
+          <div class="title-content">
+            <h4>Small Dog</h4>
+            <h6>52 Puppies</h6>
+          </div>
+          <div class="button">
+            <select type="button" class="btn-class">
+              <option>Sort by: Popular</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="parent">
+          <div class="mo21">
+            <a href="../Prouct Detail file/ProDet.html">
+              <img src="./images/image 2.png" alt="" />
+              <div class="dets">
+                <div class="dets-content">
+                  <h5>MO502 -</h5>
+                  <h5>Poodle Tiny Yellow</h5>
+                </div>
+                <div class="dets-content1">
+                  <h6 class="h6">Gene:</h6>
+                  <h6 class="male">Female</h6>
+                  <i class="ri-circle-fill"></i>
+                  <h6 class="h6">Age:</h6>
+                  <h6 class="male">02 months</h6>
+                </div>
+                <div class="dets-content2">
+                  <h5>3.900.000 VND</h5>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="mo21">
+            <img src="../Homepage file/images/image 3.png" alt="" />
+            <div class="dets">
+              <div class="dets-content">
+                <h5>MO102 -</h5>
+                <h5>Poodle Tiny Sepia</h5>
+              </div>
+              <div class="dets-content1">
+                <h6 class="h6">Gene:</h6>
+                <h6 class="male">Male</h6>
+                <i class="ri-circle-fill"></i>
+                <h6 class="h6">Age:</h6>
+                <h6 class="male">02 months</h6>
+              </div>
+              <div class="dets-content2">
+                <h5>4.000.000 VND</h5>
+              </div>
+            </div>
+          </div>
+          <div class="mo21">
+            <img src="../Homepage file/images/image ee.png" alt="" />
+            <div class="dets">
+              <div class="dets-content">
+                <h5>MO512 -</h5>
+                <h5>Alaskan Malamute</h5>
+              </div>
+              <div class="dets-content1">
+                <h6 class="h6">Gene:</h6>
+                <h6 class="male">Male</h6>
+                <i class="ri-circle-fill"></i>
+                <h6 class="h6">Age:</h6>
+                <h6 class="male">02 months</h6>
+              </div>
+              <div class="dets-content2">
+                <h5>8.900.000 VND</h5>
+              </div>
+            </div>
+          </div>
+          <div class="mo21">
+            <img src="../Homepage file/images/image eee.png" alt="" />
+            <div class="dets">
+              <div class="dets-content">
+                <h5>MO502 -</h5>
+                <h5>Poodle Tiny Yellow</h5>
+              </div>
+              <div class="dets-content1">
+                <h6 class="h6">Gender:</h6>
+                <h6 class="male">Female</h6>
+                <i class="ri-circle-fill"></i>
+                <h6 class="h6">Age:</h6>
+                <h6 class="male">02 months</h6>
+              </div>
+              <div class="dets-content2">
+                <h5>3.900.000 VND</h5>
+              </div>
+            </div>
+          </div>
+          <div class="mo21">
+            <img src="../Homepage file/images/image 5.png" alt="" />
+            <div class="dets">
+              <div class="dets-content">
+                <h5>MO502 -</h5>
+                <h5>Poodle Tiny Sepia</h5>
+              </div>
+              <div class="dets-content1">
+                <h6 class="h6">Gender:</h6>
+                <h6 class="male">Male</h6>
+                <i class="ri-circle-fill"></i>
+                <h6 class="h6">Age:</h6>
+                <h6 class="male">02 months</h6>
+              </div>
+              <div class="dets-content2">
+                <h5>4.000.000 VND</h5>
+              </div>
+            </div>
+          </div>
+          <div class="mo21">
+            <img src="../Homepage file/images/image ss.png" alt="" />
+            <div class="dets">
+              <div class="dets-content">
+                <h5>MO512 -</h5>
+                <h5>Alaskan Malamute</h5>
+              </div>
+              <div class="dets-content1">
+                <h6 class="h6">Gender:</h6>
+                <h6 class="male">Male</h6>
+                <i class="ri-circle-fill"></i>
+                <h6 class="h6">Age:</h6>
+                <h6 class="male">02 months</h6>
+              </div>
+              <div class="dets-content2">
+                <h5>8.900.000 VND</h5>
+              </div>
+            </div>
+          </div>
+          <div class="mo21">
+            <img src="../Homepage file/images/image dd.png" alt="" />
+            <div class="dets">
+              <div class="dets-content">
+                <h5>MO502 -</h5>
+                <h5>Poodle Tiny Yellow</h5>
+              </div>
+              <div class="dets-content1">
+                <h6 class="h6">Gender:</h6>
+                <h6 class="male">Female</h6>
+                <i class="ri-circle-fill"></i>
+                <h6 class="h6">Age:</h6>
+                <h6 class="male">02 months</h6>
+              </div>
+              <div class="dets-content2">
+                <h5>3.900.000 VND</h5>
+              </div>
+            </div>
+          </div>
+          <div class="mo21">
+            <img src="../Homepage file/images/image ee.png" alt="" />
+            <div class="dets">
+              <div class="dets-content">
+                <h5>MO102 -</h5>
+                <h5>Poodle Tiny Sepia</h5>
+              </div>
+              <div class="dets-content1">
+                <h6 class="h6">Gender:</h6>
+                <h6 class="male">Male</h6>
+                <i class="ri-circle-fill"></i>
+                <h6 class="h6">Age:</h6>
+                <h6 class="male">02 months</h6>
+              </div>
+              <div class="dets-content2">
+                <h5>4.000.000 VND</h5>
+              </div>
+            </div>
+          </div>
+          <div class="mo21">
+            <img src="./images/image 2.png" alt="" />
+            <div class="dets">
+              <div class="dets-content">
+                <h5>MO512 -</h5>
+                <h5>Alaskan Malamute</h5>
+              </div>
+              <div class="dets-content1">
+                <h6 class="h6">Gender:</h6>
+                <h6 class="male">Male</h6>
+                <i class="ri-circle-fill"></i>
+                <h6 class="h6">Age:</h6>
+                <h6 class="male">02 months</h6>
+              </div>
+              <div class="dets-content2">
+                <h5>8.900.000 VND</h5>
+              </div>
+            </div>
+          </div>
+          <div class="mo21">
+            <img src="../Homepage file/images/Frame 7.png" alt="" />
+            <div class="dets">
+              <div class="dets-content">
+                <h5>MO502 -</h5>
+                <h5>Poodle Tiny Yellow</h5>
+              </div>
+              <div class="dets-content1">
+                <h6 class="h6">Gender:</h6>
+                <h6 class="male">Female</h6>
+                <i class="ri-circle-fill"></i>
+                <h6 class="h6">Age:</h6>
+                <h6 class="male">02 months</h6>
+              </div>
+              <div class="dets-content2">
+                <h5>3.900.000 VND</h5>
+              </div>
+            </div>
+          </div>
+          <div class="mo21">
+            <img src="../Homepage file/images/image 3.png" alt="" />
+            <div class="dets">
+              <div class="dets-content">
+                <h5>MO102 -</h5>
+                <h5>Poodle Tiny Sepia</h5>
+              </div>
+              <div class="dets-content1">
+                <h6 class="h6">Gender:</h6>
+                <h6 class="male">Male</h6>
+                <i class="ri-circle-fill"></i>
+                <h6 class="h6">Age:</h6>
+                <h6 class="male">02 months</h6>
+              </div>
+              <div class="dets-content2">
+                <h5>4.000.000 VND</h5>
+              </div>
+            </div>
+          </div>
+          <div class="mo21">
+            <img src="./images/image 2.png" alt="" />
+            <div class="dets">
+              <div class="dets-content">
+                <h5>MO512 -</h5>
+                <h5>Alaskan Malamute</h5>
+              </div>
+              <div class="dets-content1">
+                <h6 class="h6">Gender:</h6>
+                <h6 class="male">Female</h6>
+                <i class="ri-circle-fill"></i>
+                <h6 class="h6">Age:</h6>
+                <h6 class="male">02 months</h6>
+              </div>
+              <div class="dets-content2">
+                <h5>3.900.000 VND</h5>
+              </div>
+            </div>
+          </div>
+          <div class="mo21">
+            <img src="../Homepage file/images/image 5.png" alt="" />
+            <div class="dets">
+              <div class="dets-content">
+                <h5>MO502 -</h5>
+                <h5>Poodle Tiny Yellow</h5>
+              </div>
+              <div class="dets-content1">
+                <h6 class="h6">Gender:</h6>
+                <h6 class="male">Female</h6>
+                <i class="ri-circle-fill"></i>
+                <h6 class="h6">Age:</h6>
+                <h6 class="male">02 months</h6>
+              </div>
+              <div class="dets-content2">
+                <h5>3.900.000 VND</h5>
+              </div>
+            </div>
+          </div>
+          <div class="mo21">
+            <img src="../Homepage file/images/image eee.png" alt="" />
+            <div class="dets">
+              <div class="dets-content">
+                <h5>MO502 -</h5>
+                <h5>Poodle Tiny sepia</h5>
+              </div>
+              <div class="dets-content1">
+                <h6 class="h6">Gender:</h6>
+                <h6 class="male">Female</h6>
+                <i class="ri-circle-fill"></i>
+                <h6 class="h6">Age:</h6>
+                <h6 class="male">02 months</h6>
+              </div>
+              <div class="dets-content2">
+                <h5>3.900.000 VND</h5>
+              </div>
+            </div>
+          </div>
+          <div class="mo21">
+            <img src="../Homepage file/images/image ss.png" alt="" />
+            <div class="dets">
+              <div class="dets-content">
+                <h5>MO502 -</h5>
+                <h5>Alaskan Malamute</h5>
+              </div>
+              <div class="dets-content1">
+                <h6 class="h6">Gender:</h6>
+                <h6 class="male">Female</h6>
+                <i class="ri-circle-fill"></i>
+                <h6 class="h6">Age:</h6>
+                <h6 class="male">02 months</h6>
+              </div>
+              <div class="dets-content2">
+                <h5>3.900.000 VND</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="pagination">
+          <a href="#">«</a>
+          <a href="#" class="active">1</a>
+          <a href="#">2</a>
+          <a href="#">3</a>
+          <a href="#">4</a>
+          <span>...</span>
+          <a href="#">28</a>
+          <a href="#">»</a>
+        </div>
+      </section>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <div class="foot-1">
+        <div class="fill">
+          <h4>Register Now So You Don't Miss Our Programs</h4>
+          <div class="subscribe">
+            <input type="text" name="" id="" placeholder="Enter Your Email" />
+            <button type="button">Subscribe Now</button>
+          </div>
+        </div>
+
+        <div id="footer-navi">
+          <div class="footer-nav">
+            <ul class="foot-nav-1">
+              <li><a href="../Homepage file/index.html">Home</a></li>
+              <li><a href="./category.html">Category</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="social-icons">
+            <ul class="foot-nav-2">
+              <li><i class="ri-facebook-circle-fill"></i></li>
+              <li><i class="ri-twitter-fill"></i></li>
+              <li><i class="ri-instagram-fill"></i></li>
+              <li><i class="ri-youtube-fill"></i></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <hr class="footer-hr" />
+      <div class="footer-end">
+        <div class="end1">
+          <p>@ 2022 Monito. All rights reserved.</p>
+        </div>
+        <img src="../Homepage file/images/LOGO.svg" alt="" />
+        <div class="end2">
+          <h5>Terms of Service</h5>
+          <h5>Privacy Policy</h5>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
