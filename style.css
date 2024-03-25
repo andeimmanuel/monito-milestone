@@ -18,7 +18,7 @@ body {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  background-image: url(./images/hero.png);
+  background-image: url("/Homepage file/images/Logo bg img.svg");
   background-repeat: no-repeat;
   background-position: top left;
   /* border: 2px solid red; */
